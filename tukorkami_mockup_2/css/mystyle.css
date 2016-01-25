@@ -1,0 +1,104 @@
+.navbar-default{
+    height: 100px;
+
+}
+
+.logo{
+    width: 300px;
+
+}
+
+.navbar-default .navbar-nav>li>a {
+
+    margin-top: 30px;
+    color: #000000;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    background: #EC5A2F;
+
+}
+
+#customLi{
+    background:#EA5858;
+  
+}
+
+#customNav{
+    background: white;
+}
+
+#mediaRow{
+    background: #EC5A2F;
+    border-radius: 20px;
+}
+
+#mediaRowHeading{
+    color: white;
+}
+
+#bg{
+    background:url('../images/background_img.jpg') no-repeat center center;
+   background-size:100% auto;
+}
+
+.row-footer {
+  margin: 0px auto;
+  padding: 20px 0px;
+  background-color: #AfAfAf;
+}
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+    /*border navbar collapse*/
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+
+        margin-top: 50px;
+    }
+
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+
+    /*border navbar collapse*/
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+
+        margin-top: 20px;
+    }
+
+    .navbar-default{
+        height: 70px;
+
+    }
+
+    .logo{
+        width: 150px;
+
+    }
+    
+    #bg{
+    background:url('../images/background_img.jpg') no-repeat center center;
+   background-size:1000px;
+        
+}
+
+}
+
+
+

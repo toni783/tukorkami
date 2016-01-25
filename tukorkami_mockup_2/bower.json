@@ -1,0 +1,25 @@
+{
+  "name": "tukorkami mockup",
+  "authors": [
+    "toni <toni7858@gmail.com>"
+  ],
+  "description": "mockup of website front page",
+  "main": "index.html",
+  "moduleType": [],
+  "keywords": [
+    "mockup",
+    "contest"
+  ],
+  "license": "MIT",
+  "homepage": "index.html",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-social": "~4.11.0"
+  }
+}

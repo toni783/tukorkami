@@ -1,0 +1,31 @@
+.navbar-default{
+    height: 100px;
+    background: #193C5F;
+
+}
+
+.navbar-default .navbar-brand {
+    color: #FFF;
+    font-size: 50px;
+}
+
+.navbar-brand small {
+    padding-top: 15px;
+  display:block;
+  font-size:25px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #FFF;
+    font-size: 15px;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #F35829;
+
+}
+
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+    color: #F35829;
+   
+}
